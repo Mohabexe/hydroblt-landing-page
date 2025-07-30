@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYDROBLT - Revolutionary Recovery Shot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo-placeholder">
+            <h1>HYDROBLT</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero-section" class="hero-section">
+        <div id="particle-container"></div>
+        <div class="hero-content">
+            <!-- Lightning Icon at Top -->
+            <div id="top-lightning-icon" class="top-lightning-icon">
+                <svg viewBox="0 0 50 80" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 0 L15 30 L30 30 L20 50 L35 50 L22.5 70 L37.5 70 L25 80 L35 70 L27.5 50 L42.5 50 L32.5 30 L45 30 L25 0 Z" 
+                          fill="currentColor" stroke="none"/>
+                </svg>
+            </div>
+
+            <!-- Product Placeholder -->
+            <div class="product-placeholder">
+                <div class="bottle-icon">⚡</div>
+                <div class="product-glow"></div>
+            </div>
+
+            <!-- Verbiage Container -->
+            <div id="verbiage-container" class="verbiage-container">
+                <span id="phrase1" class="animated-phrase">Recovery</span>
+                <span id="phrase2" class="animated-phrase">Hydration</span>
+                <span id="phrase3" class="animated-phrase">20 grams of protein</span>
+                <span id="phrase4" class="animated-phrase">Packed in one tiny shot</span>
+            </div>
+
+            <!-- Main Lightning Bolt Effect -->
+            <svg id="main-lightning-bolt" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path id="lightning-path" />
+            </svg>
+
+            <!-- Product Name -->
+            <h2 id="product-name" class="product-name">HYDROBLT</h2>
+
+            <!-- Product Silhouette -->
+            <div id="product-shot-silhouette" class="product-shot-silhouette">
+                <div class="shot-bottle">💧</div>
+            </div>
+
+            <!-- Thunder Flash Effect -->
+            <div id="thunder-flash" class="thunder-flash"></div>
+        </div>
+    </section>
+
+    <!-- Waiting List Section -->
+    <section id="waiting-list-section" class="waiting-list-section">
+        <div class="waiting-list-content">
+            <h2>Join the Waiting List</h2>
+            <p class="description">Be the first to experience the power of HYDROBLT. Get exclusive early access and special launch pricing.</p>
+            
+            <form id="waiting-list-form" class="waiting-list-form">
+                <input type="email" id="email-input" placeholder="Enter your email address" required>
+                <button type="submit" id="join-now-button">
+                    JOIN NOW 
+                    <svg class="button-lightning-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </button>
+                <div id="success-message" class="success-message" style="display: none;">
+                    <span>⚡ Welcome to the HYDROBLT family! ⚡</span>
+                </div>
+            </form>
+            
+            <div id="key-benefits-container" class="key-benefits-container">
+                <div class="benefit-card">
+                    <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <p class="benefit-text">Instant Energy</p>
+                </div>
+                <div class="benefit-card">
+                    <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <p class="benefit-text">Muscle Recovery</p>
+                </div>
+                <div class="benefit-card">
+                    <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2C20 10.48 17.33 6.55 12 2z"></path>
+                    </svg>
+                    <p class="benefit-text">Complete Hydration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 HYDROBLT. All rights reserved. | Revolutionizing Recovery</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
